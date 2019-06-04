@@ -1,3 +1,4 @@
+@media only screen (max-width: 980px) {}
 body {
     background-image: url("../images/tic-tac-toe.png");
     background-repeat: auto;
@@ -62,8 +63,6 @@ footer {
     padding: 5px;
     font-size: 10px;
 }
-
-@media only screen (max-width: 980px) {
 
 input {
     width: 100%;
@@ -159,12 +158,49 @@ textarea {
     bottom: 20px;
 }
 
+
+@media only screen and (max-width: 768px) {
+
+.content {
+    width: 80%;
 }
 
-@media only screen (max-width: 768px) {
+.btnSubmit {
+    width: 15%;
+    font-size: 12px;
+}
 
+#nameHeading {
+    float: left;
+    margin: auto;
+}
+
+.columns {
+    width: 100%;
+}
+
+#col-1 #col-2 {
+    width: 100%;
+}
 
 }
 
+
+
+@media only screen and (max-width: 640px) {
+
+header {
+    position: static;
+}
+
+nav {
+    font-size: 14px;
+}
+
+#nameHeading {
+    overflow: hidden;
+}
+
+}
 
 
