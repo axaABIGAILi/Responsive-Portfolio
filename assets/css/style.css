@@ -82,12 +82,11 @@ textarea {
     box-sizing: border-box;
 }
 
-#col-1 {
+.col {
     width: 33%;
-    float: left;
 }
 
-#col-2 {
+#col-1 {
     width: 33%;
     float: left;
 }
@@ -175,12 +174,9 @@ textarea {
     margin: auto;
 }
 
-.columns {
-    width: 100%;
-}
-
 #col-1 #col-2 {
     width: 100%;
+    float: none;
 }
 
 }
