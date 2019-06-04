@@ -78,15 +78,28 @@ textarea {
     flex-shrink: 0;
 }
 
-.columns {
+/* .columns {
     box-sizing: border-box;
+} */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
-.col {
-    width: 33%;
+.column {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 4px;
 }
 
 #col-1 {
+    width: 33%;
+    float: left;
+}
+
+#col-2 {
     width: 33%;
     float: left;
 }
@@ -174,9 +187,16 @@ textarea {
     margin: auto;
 }
 
-#col-1 #col-2 {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 100%;
+    max-width: 100%;
     width: 100%;
-    float: none;
 }
 
 }
